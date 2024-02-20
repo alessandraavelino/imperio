@@ -16,34 +16,34 @@ function Plans() {
           <h1 className="text-5xl text-[#001E5F] text-medium pb-4 mb-4 border-b border-gray-200 leading-none">Silver</h1>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Consultas (Clínico geral, emergencial e retorno)
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Vacinas
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Exames Laboratoriais
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-6">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Procedimentos Emergenciais
           </p>
           <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Saber mais
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
@@ -57,55 +57,55 @@ function Plans() {
           <h1 className="text-5xl text-[#001E5F] text-medium pb-4 mb-4 border-b border-gray-200 leading-none">Gold</h1>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Consultas (Clínico geral, emergencial e retorno)
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Vacinas
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Exames Laboratoriais
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Procedimentos Emergenciais
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Exames de Imagem
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Anestesias
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-6">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Internação
           </p>
           <button className="flex items-center mt-auto text-white bg-[#FFCC00] border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Saber mais
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
@@ -118,55 +118,55 @@ function Plans() {
           <h1 className="text-5xl text-[#001E5F] text-medium pb-4 mb-4 border-b border-gray-200 leading-none">Black</h1>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Consultas (Clínico geral, emergencial, especialista, retorno, acupuntura ou fisioterapia)
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Vacinas
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Exames Laboratoriais
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Procedimentos Emergenciais
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Exames de Imagem
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-2">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center nh-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Anestesias
           </p>
           <p className="flex items-center text-[#001E5F] text-medium mb-6">
             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
                 <path d="M20 6L9 17l-5-5"></path>
               </svg>
             </span>Internação
           </p>
           <button className="flex items-center mt-auto text-white bg-[#001E5F] border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Saber mais
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
