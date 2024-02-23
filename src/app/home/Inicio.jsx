@@ -13,7 +13,7 @@ function Inicio() {
   return (
     <div>
 
-        <section className="text-[#001E5F] body-font">
+        <section className="text-[#001E5F] body-font" id="#home">
         <div className="flex justify-end">
             <div className={`transition-opacity duration-1000 ease-in ${loaded ? 'opacity-100' : 'opacity-0'}`}>
                 <Image className="transition duration-700 ease-in-out" src={detalhe} width={200} height={100} alt="Logotipo da Império Pet"/>

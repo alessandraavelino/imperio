@@ -8,44 +8,41 @@ function Footer() {
         <footer className="text-gray-600 justify-center body-font">
             <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-                <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <a className="flex title-font font-medium items-center md:justify-start justify-center text-[#001E5F]">
                     <Image src={logo} width={100} height={100} alt="Logotipo da Império Pet" />
-                    <span className="ml-3 text-xl">Império Pet</span>
+                    <span className="ml-3 text-xl font-medium">Império Pet</span>
                 </a>
                 <p className="mt-2 text-sm text-gray-500">O amor e o cuidado que seu pet merece!</p>
                 </div>
                 <div className="flex-grow flex justify-center flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                 <div className="lg:w-1/4 md:w-1/2 justify-center w-full px-4">
-                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Menu</h2>
+                    <h2 className="title-font font-medium text-[#001E5F] tracking-widest text-md mb-3">Menu</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Início</a>
+                        <a href="#home" className="text-gray-600 hover:text-[#001E5F]">Início</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Serviços</a>
+                        <a href="#services" className="text-gray-600 hover:text-[#001E5F]">Serviços</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Sobre</a>
+                        <a href="#about" className="text-gray-600 hover:text-[#001E5F]">Sobre</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Nossos Planos</a>
+                        <a href="#gallery" className="text-gray-600 hover:text-[#001E5F]">Galeria</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Contato</a>
+                        <a href="#contact" className="text-gray-600 hover:text-[#001E5F]">Contato</a>
                     </li>
                     </nav>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Acompanhe pelas redes</h2>
+                    <h2 className="title-font font-medium text-[#001E5F] tracking-widest text-md mb-3">Acompanhe pelas redes</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Instagram</a>
+                        <a href="https://www.instagram.com/souimperiopet" target="_blank" className="text-gray-600 hover:text-[#001E5F]">Instagram</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Facebook</a>
-                    </li>
-                    <li>
-                        <a className="text-gray-600 hover:text-gray-800">WhatsApp</a>
+                        <a className="text-gray-600 hover:text-[#001E5F]">Facebook</a>
                     </li>
                     </nav>
                 </div>
@@ -54,7 +51,7 @@ function Footer() {
             </div>
             <div className="bg-gray-100">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 Desenvolvido por —
+                <p className="text-gray-500 text-sm text-center sm:text-left">© 2024 Desenvolvido por —
                     <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">Alessandra Avelino</a>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

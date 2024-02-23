@@ -1,12 +1,13 @@
-import Image from "next/image";
 import Header from "./header/Header";
 import Inicio from "./home/Inicio";
 import Services from "./services/Services";
 import About from "./about/About";
-import Plans from "./plans/Plans";
+// import Plans from "./plans/Plans";
 import Contact from "./contact/Contact";
 import Cta from "./cta/Cta";
 import Footer from "./footer/Footer";
+import Gallery from "./gallery/Gallery";
+
 export default function Home() {
   return (
    <div>
@@ -15,7 +16,8 @@ export default function Home() {
     <Services />
     <About />
     <Cta />
-    <Plans />
+    <Gallery />
+    {/* <Plans /> */}
     <Contact />
     <Footer />
    </div>

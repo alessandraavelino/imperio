@@ -1,10 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
 
 function About() {
   return (
     <div>
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font" id="about">
             <div className="container px-5 py-24 mx-auto">
                 <div className="text-center mb-20">
                 <h1 className="sm:text-3xl text-2xl font-bold title-font text-[#001E5F]  mb-4">Sobre nós</h1>
@@ -14,7 +13,7 @@ function About() {
                 </div>
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
                 <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-                <div className="w-20 h-20 inline-flex items-center justify-center bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0 rounded-full overflow-hidden">
+                <div className="w-20 h-20 inline-flex items-center justify-center bg-[#001E5F] text-[#001E5F] mb-5 flex-shrink-0 rounded-full overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1532202802379-df93d543bac3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logotipo da Império Pet"/>
                 </div>
                     <div className="flex-grow">
@@ -25,7 +24,7 @@ function About() {
                     </div>
                 </div>
                 <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-                <div className="w-20 h-20 inline-flex items-center justify-center bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0 rounded-full overflow-hidden">
+                <div className="w-20 h-20 inline-flex items-center justify-center bg-indigo-100 text-[#001E5F] mb-5 flex-shrink-0 rounded-full overflow-hidden">
                     <img src="https://images.unsplash.com/photo-1591946614720-90a587da4a36?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logotipo da Império Pet"/>
                 </div>
                     <div className="flex-grow">

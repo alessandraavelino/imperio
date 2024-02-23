@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from './../../../public/assets/logo.png'
+import Link from 'next/link';
 
 function Header() {
   return (
@@ -12,14 +13,14 @@ function Header() {
                 <span className="ml-3 text-xl text-[#001E5F] font-bold">Império Pet</span>
                 </a>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center ">
-                    <a className="mr-5 hover:underline cursor-pointer">Início</a>
-                    <a className="mr-5 hover:underline cursor-pointer">Serviços</a>
-                    <a className="mr-5 hover:underline cursor-pointer">Sobre</a>
-                    <a className="mr-5 hover:underline cursor-pointer">Nossos Planos</a>
+                    <a href="#home" className="mr-5 hover:underline cursor-pointer">Início</a>
+                    <a href="#services" className="mr-5 hover:underline cursor-pointer">Serviços</a>
+                    <a href="#about" className="mr-5 hover:underline cursor-pointer">Sobre</a>
+                    <a href="#gallery" className="mr-5 hover:underline cursor-pointer">Galeria</a>
                 </nav>
-                <button className="inline-flex items-center bg-[#001E5F] text-white border-0 py-1 px-3 focus:outline-none hover:bg-[#5282ea] rounded text-base mt-4 md:mt-0">
+                <a href="#contact" className="inline-flex items-center bg-[#001E5F] cursor-pointer text-white border-0 py-1 px-3 focus:outline-none hover:bg-[#2A7DAF] rounded text-base mt-4 md:mt-0">
                     Contato
-                </button>
+                </a>
             </div>
             </header>
     </div>
