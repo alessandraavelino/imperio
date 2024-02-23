@@ -13,20 +13,14 @@ function Inicio() {
   return (
     <div>
 
-        <section className="text-[#001E5F] body-font" id="#home">
-        <div className="flex justify-end">
-            <div className={`transition-opacity duration-1000 ease-in ${loaded ? 'opacity-100' : 'opacity-0'}`}>
-                <Image className="transition duration-700 ease-in-out" src={detalhe} width={200} height={100} alt="Logotipo da Império Pet"/>
-            </div>
-            
-         </div>
+        <section className="text-[#001E5F] body-font" id="home">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h3 className="title-font sm:text-4xl text-3xl mb-4 text-[#2A7DAF]">Império Pet | Seu plano amigo
                 </h3>
                 
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#001E5F]">Proporcionamos a cada pet o <span className="text-[#2A7DAF]">amor</span> e <span className="text-[#2A7DAF]">cuidado</span> que eles merecem.</h1>
-                <h1 className="title-font sm:text-4sm text-3sm mb-4 font-medium text-[#001E5F]">Nos esforçamos para fornecer produtos e serviços de alta qualidade que atendam às necessidades individuais de cada animal de estimação.</h1>
+                
                 <div className="flex justify-center">
                     <button className="inline-flex text-white bg-[#001E5F] border-0 py-2 px-6 focus:outline-none hover:bg-[#2A7DAF] rounded text-lg">Ver Planos</button>
                     <button className="ml-4 inline-flex text-[#001E5F] font-medium border-0 py-2 px-6 focus:outline-none hover:underline text-lg">Entrar em contato</button>
