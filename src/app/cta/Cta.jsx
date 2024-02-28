@@ -10,10 +10,10 @@ function Cta() {
   return (
     <div>
       <section className="text-gray-600 bg-[#FFCC00] body-font" id="cta">
-        <div className="container px-5 py-4 mx-auto">
-          <div className="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-            <Image src={petRei} alt="Cachorrinho" width={300} height={300} className="p-2" />
-            <h1 className="flex-grow sm:pr-16 text-2xl font-bold title-font text-[#001E5F]">
+        <div className="container px-5 py-14 mx-auto">
+          <div className="lg:w-3/4 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <Image src={petRei} alt="Cachorrinho" width={300} height={600} className="p-2" />
+            <h1 className="flex-grow sm:pr-10 text-3xl font-bold title-font text-[#001E5F]">
               Entre em contato agora mesmo pelo WhatsApp e encontre o melhor
               plano para o seu pet!{" "}
             </h1>

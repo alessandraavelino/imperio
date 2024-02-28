@@ -92,7 +92,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <button className="flex mx-auto mt-16 text-white bg-[#001E5F] border-0 py-2 px-8 focus:outline-none hover:bg-[#2A7DAF] rounded text-lg">
+          <button className="flex mx-auto mt-16 font-bold text-white bg-[#001E5F] border-0 py-2 px-8 focus:outline-none hover:bg-[#2A7DAF] rounded text-lg">
             Saiba mais!
           </button>
           <Image
