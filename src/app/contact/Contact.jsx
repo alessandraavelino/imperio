@@ -22,15 +22,18 @@ function Contact() {
                         <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">Matriz</h2>
                         <p className="mt-1">Av. Pres. Epitácio Pessoa, 4940 - Loja 208 - Cabo Branco, João Pessoa - PB</p>
                     </div>
-                    <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                    <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">E-MAIL</h2>
-                    <a className="text-[#001E5F] leading-relaxed">souimperiopet@gmail.com</a>
-                    <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">CONTATO</h2>
-                    <p className="leading-relaxed">123-456-7890</p>
+                    <div className="lg:w-1/2 px-6 pb-6">
+                        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">Filial</h2>
+                        <p className="mt-1">Shopping Cidade Luz, R. Otacílio Líra Cabral, 100 - Areia Branca, Guarabira - PB</p>
+                    </div>
+                    
+                    <div className="lg:w-1/2 px-6">
+                        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">E-MAIL</h2>
+                        <a className="text-[#001E5F] leading-relaxed">souimperiopet@gmail.com</a>
                     </div>
                     <div className="lg:w-1/2 px-6">
-                        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">Filial</h2>
-                        <p className="mt-1">R. Otacílio Líra Cabral, 100 - Areia Branca, Guarabira - PB</p>
+                        <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">CONTATO</h2>
+                        <p className="text-[#001E5F] leading-relaxed">(83) 98131 1331</p>
                     </div>
                     
                 </div>
