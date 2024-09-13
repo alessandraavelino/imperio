@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import banner from "./../../../public/assets/banner.svg";
 import hashtag from "./../../../public/assets/hashtag.png";
+import slider1 from "./../../../public/assets/slider1.svg";
+import slider2 from "./../../../public/assets/slider2.svg";
+import slider3 from "./../../../public/assets/slider3.svg";
 
 function Inicio() {
   const [loaded, setLoaded] = useState(false);
@@ -13,51 +16,46 @@ function Inicio() {
 
   return (
     <div>
-      <section className="text-[#001E5F] body-font" id="home">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center transition-opacity duration-1000 ease-in" style={{ opacity: loaded ? 1 : 0 }}>
-            <h3 className="title-font sm:text-4xl text-3xl mb-4 text-[#2A7DAF]">
-              Império Pet | Seu plano amigo
-            </h3>
+      <header className="text-[#001E5F] body-font shadow bottom-1 font-semibold">
+           
 
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#001E5F]">
-              Proporcionamos a cada pet o{" "}
-              <span className="text-[#2A7DAF]">amor</span> e{" "}
-              <span className="text-[#2A7DAF]">cuidado</span> que eles merecem.
-              
-            </h1>
-            <Image
-              className="py-5"
-              src={hashtag}
-              width={200}
-              height={200}
-              alt="#EuSouImpérioPet"
-            />
+           <div id="default-carousel" class="relative w-full" data-carousel="slide">
+               <div class="relative h-200 overflow-hidden rounded-lg md:h-96">
+                   <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                       <Image src={slider1} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                   </div>
+                   <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                       <Image src={slider2} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                   </div>
+                   <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                       <Image src={slider3} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                   </div>
 
-            <div className="flex pt-5 justify-center">
-              <a href="#cta" className="inline-flex text-white bg-[#001E5F] border-0 py-2 px-6 focus:outline-none hover:bg-[#2A7DAF] rounded text-lg">
-                Ver Planos
-              </a>
-              <a href="#contact" className="ml-4 inline-flex text-[#001E5F] font-medium border-0 py-2 px-6 focus:outline-none hover:underline text-lg">
-                Entrar em contato
-              </a>
-            </div>
-          </div>
-          <div
-            className={`lg:max-w-lg lg:w-full md:w-1/2 w-5/6 transition-opacity duration-1000 ease-in ${
-              loaded ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <Image
-              className="transition duration-700 ease-in-out"
-              src={banner}
-              width={720}
-              height={600}
-              alt="Logotipo da Império Pet"
-            />
-          </div>
-        </div>
-      </section>
+               </div>
+               <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                   <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                   <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                   <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+               </div>
+               <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                   <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                       <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                       </svg>
+                       <span class="sr-only">Previous</span>
+                   </span>
+               </button>
+               <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                   <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                       <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                       </svg>
+                       <span class="sr-only">Next</span>
+                   </span>
+               </button>
+           </div>
+           
+                       </header>
     </div>
   );
 }
