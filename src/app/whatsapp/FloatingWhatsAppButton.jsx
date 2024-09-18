@@ -6,7 +6,7 @@ function FloatingWhatsAppButton() {
   return (
     <div className="fixed bottom-4 right-4 z-50">
       <a
-        href="https://wa.me/1234567890" // Substitua pelo seu número de WhatsApp
+        href="https://wa.me/5583982204000" // Substitua pelo seu número de WhatsApp
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center animate-bounce transition-colors duration-300"
