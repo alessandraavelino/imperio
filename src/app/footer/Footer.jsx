@@ -35,7 +35,7 @@ function Footer() {
                           <a href="https://instagram.com/souimperiopet" target="_blank" class="hover:underline ">Instagram</a>
                       </li>
                       <li>
-                          <a href="https://facebook.com/imperiopet" class="hover:underline">Facebook</a>
+                          <a href="https://facebook.com/souimperiopet" target="_blank" class="hover:underline">Facebook</a>
                       </li>
                   </ul>
               </div>

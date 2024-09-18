@@ -7,14 +7,13 @@ function Plans() {
     <div 
       style={{ 
         width: '100%', 
-        height: '100vh', // Definindo altura total da tela
-        backgroundImage: `url(${fundo.src})`, // Usando a imagem como fundo
+        height: '100vh', // Altura total da tela
+        backgroundImage: `url(${fundo.src})`, // Imagem como fundo
         backgroundSize: 'cover', // A imagem cobre todo o espaço
         backgroundPosition: 'center', // Centraliza a imagem
-        position: 'relative',
-        display: 'flex',
-        alignItems: 'center', // Centraliza verticalmente
+        display: 'flex', 
         justifyContent: 'center', // Centraliza horizontalmente
+        alignItems: 'center', // Centraliza verticalmente
       }}
     >
       <section className="p-8 rounded-lg">
@@ -23,11 +22,8 @@ function Plans() {
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">
               Escolha o melhor plano para o seu companheiro!
             </h2>
-            {/* <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
-            </p> */}
           </div>
-          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+          <div className="flex justify-center">
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -80,4 +76,4 @@ function Plans() {
   )
 }
 
-export default Plans
+export default Plans;

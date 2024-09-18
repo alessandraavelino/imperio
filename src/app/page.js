@@ -8,6 +8,7 @@ import Cta from "./cta/Cta";
 import Footer from "./footer/Footer";
 //import Gallery from "./gallery/Gallery";
 import CtaPet from "./ctaPe/CtaPet";
+import FloatingWhatsAppButton from "./whatsapp/FloatingWhatsAppButton";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     <Contact />
     <Plans />
     <Footer />
+    <FloatingWhatsAppButton />
    </div>
   );
 }

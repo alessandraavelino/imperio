@@ -15,7 +15,7 @@ Escolha o plano ideal para garantir a segurança e bem-estar do seu pet. Cuide d
           </h5>
           <div class="pt-5 text-center">
           <Link
-                href="/servicos-auto"
+                href="#planos"
                 className="text-white bg-[#FFCC00] border-0 py-2 font-semibold px-6 focus:outline-none hover:bg-[#001E5F] rounded text-lg"
               >
                 Ver Planos
