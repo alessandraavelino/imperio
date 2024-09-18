@@ -19,8 +19,8 @@ export default function Home() {
     <About />
     <Cta />
     {/* <Gallery /> */}
-    {/* <Plans /> */}
-    {/* <Contact /> */}
+    <Contact />
+    <Plans />
     <Footer />
    </div>
   );

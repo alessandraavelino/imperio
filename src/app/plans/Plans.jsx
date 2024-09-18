@@ -1,181 +1,81 @@
+import Image from 'next/image'
 import React from 'react'
+import fundo from '../../../public/assets/fundo.svg'
 
 function Plans() {
   return (
-    <div>
-        <section className="text-[#001E5F] bg-[#] text-medium body-font overflow-hidden">
-  <div className="container px-5 py-24 mx-auto">
-    <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-4xl text-3xl font-bold title-font mb-2 text-[#001E5F]">Nossos Planos</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-[#001E5F] text-medium">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
-    </div>
-    <div className="flex flex-wrap  justify-center -m-4">
-      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">Plano</h2>
-          <h1 className="text-5xl text-[#001E5F] text-medium pb-4 mb-4 border-b border-gray-200 leading-none">Silver</h1>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Consultas (Clínico geral, emergencial e retorno)
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Vacinas
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Exames Laboratoriais
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-6">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Procedimentos Emergenciais
-          </p>
-          <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Saber mais
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
-          <p className="text-xs text-[#001E5F] text-medium mt-3">Literally you probably havent heard of them jean shorts.</p>
+    <div 
+      style={{ 
+        width: '100%', 
+        height: '100vh', // Definindo altura total da tela
+        backgroundImage: `url(${fundo.src})`, // Usando a imagem como fundo
+        backgroundSize: 'cover', // A imagem cobre todo o espaço
+        backgroundPosition: 'center', // Centraliza a imagem
+        position: 'relative',
+        display: 'flex',
+        alignItems: 'center', // Centraliza verticalmente
+        justifyContent: 'center', // Centraliza horizontalmente
+      }}
+    >
+      <section className="p-8 rounded-lg">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">
+              Escolha o melhor plano para o seu companheiro!
+            </h2>
+            {/* <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+              Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+            </p> */}
+          </div>
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                Best option for personal use & for your next project.
+              </p>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$29</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
+              </div>
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
+                  </svg>
+                  <span>Individual configuration</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
+                  </svg>
+                  <span>No setup, or hidden fees</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
+                  </svg>
+                  <span>Team size: <span className="font-semibold">1 developer</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
+                  </svg>
+                  <span>Premium support: <span className="font-semibold">6 months</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
+                  </svg>
+                  <span>Free updates: <span className="font-semibold">6 months</span></span>
+                </li>
+              </ul>
+              <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-primary-900">
+                Get started
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-[#FFCC00] flex flex-col relative overflow-hidden">
-          <span className="bg-[#FFCC00] text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">Mais procurado</span>
-          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">Plano</h2>
-          <h1 className="text-5xl text-[#001E5F] text-medium pb-4 mb-4 border-b border-gray-200 leading-none">Gold</h1>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Consultas (Clínico geral, emergencial e retorno)
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Vacinas
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Exames Laboratoriais
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Procedimentos Emergenciais
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Exames de Imagem
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Anestesias
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-6">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Internação
-          </p>
-          <button className="flex items-center mt-auto text-white bg-[#FFCC00] border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Saber mais
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
-          <p className="text-xs text-[#001E5F] text-medium mt-3">Literally you probably havent heard of them jean shorts.</p>
-        </div>
-      </div>
-      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-          <h2 className="text-sm tracking-widest title-font mb-1 font-medium">Plano</h2>
-          <h1 className="text-5xl text-[#001E5F] text-medium pb-4 mb-4 border-b border-gray-200 leading-none">Black</h1>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Consultas (Clínico geral, emergencial, especialista, retorno, acupuntura ou fisioterapia)
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Vacinas
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Exames Laboratoriais
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Procedimentos Emergenciais
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Exames de Imagem
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-2">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center nh-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Anestesias
-          </p>
-          <p className="flex items-center text-[#001E5F] text-medium mb-6">
-            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-[#001E5F] text-white rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
-              </svg>
-            </span>Internação
-          </p>
-          <button className="flex items-center mt-auto text-white bg-[#001E5F] border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Saber mais
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
-          <p className="text-xs text-[#001E5F] text-medium mt-3">Literally you probably havent heard of them jean shorts.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
     </div>
   )
 }
