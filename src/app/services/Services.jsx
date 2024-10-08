@@ -4,7 +4,7 @@ import React from "react";
 function Services() {
   return (
     <div className="justify-center text-center p-10">
-      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-[#001E5F] md:text-5xl lg:text-6xl dark:text-white">
+      <h1 className="mb-4 text-4lg pt-7 font-extrabold leading-none tracking-tight text-[#001E5F] md:text-3xl lg:text-6lg dark:text-white">
         Por que possuir um Plano Pet
       </h1>
       <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">

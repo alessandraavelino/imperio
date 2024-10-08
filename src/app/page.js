@@ -21,7 +21,7 @@ export default function Home() {
     <Cta />
     {/* <Gallery /> */}
     <Contact />
-    {/* <Plans /> */}
+    <Plans />
     <Footer />
     <FloatingWhatsAppButton />
    </div>

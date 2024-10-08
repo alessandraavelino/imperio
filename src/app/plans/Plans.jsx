@@ -1,79 +1,123 @@
-import Image from 'next/image'
-import React from 'react'
-import fundo from '../../../public/assets/fundo.svg'
+import Image from "next/image";
+import React from "react";
+import fundo from "../../../public/assets/fundo.svg";
 
 function Plans() {
+  const plans = [
+    
+    {
+      title: "PET PLUS",
+      price: 49.90,
+      features: [
+        { text: "Rastreamento Pet", included: true },
+        { text: "Clube de Benefícios", included: true },
+        { text: "Assistência 24h (0800 848 1223)", included: true },
+        { text: "Transporte Veterinário Emergencial", included: true },
+        { text: "Consulta veterinária Emergencial", included: true },
+        { text: "Consulta Veterinária", included: true },
+        { text: "Agendamento de consulta", included: true },
+        { text: "Plano Funerário", included: false },
+      ],
+    },
+    {
+      title: "PET GOLD",
+      price: 79.90,
+      features: [
+        { text: "Rastreamento Pet", included: true },
+        { text: "Clube de Benefícios", included: true },
+        { text: "Assistência 24h (0800 848 1223)", included: true },
+        { text: "Transporte Veterinário Emergencial", included: true },
+        { text: "Consulta veterinária Emergencial", included: true },
+        { text: "Consulta Veterinária", included: true },
+        { text: "Agendamento de consulta", included: true },
+        { text: "Plano Funerário", included: true },
+      ],
+    },
+    {
+      title: "PET RASTREAMENTO",
+      price: 39.90,
+      features: [
+        { text: "Rastreamento Pet", included: true },
+        { text: "Clube de Benefícios", included: true },
+        { text: "Assistência 24h (0800 848 1223)", included: true },
+        { text: "Transporte Veterinário Emergencial", included: false },
+        { text: "Consulta veterinária Emergencial", included: false },
+        { text: "Consulta Veterinária", included: false },
+        { text: "Agendamento de consulta", included: false },
+        { text: "Plano Funerário", included: false },
+      ],
+    },
+  ];
+
   return (
-    <div 
-      style={{ 
-        width: '100%', 
-        height: '100vh', // Altura total da tela
-        backgroundImage: `url(${fundo.src})`, // Imagem como fundo
-        backgroundSize: 'cover', // A imagem cobre todo o espaço
-        backgroundPosition: 'center', // Centraliza a imagem
-        display: 'flex', 
-        justifyContent: 'center', // Centraliza horizontalmente
-        alignItems: 'center', // Centraliza verticalmente
-      }}
-    >
+    <div className="bg-blue-400">
       <section className="p-8 rounded-lg">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">
-              Escolha o melhor plano para o seu companheiro!
-            </h2>
-          </div>
-          <div className="flex justify-center">
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
-              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                Best option for personal use & for your next project.
-              </p>
-              <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$29</span>
-                <span className="text-gray-500 dark:text-gray-400">/month</span>
-              </div>
-              <ul role="list" className="mb-8 space-y-4 text-left">
-                <li className="flex items-center space-x-3">
-                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                  <span>Individual configuration</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                  <span>No setup, or hidden fees</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                  <span>Team size: <span className="font-semibold">1 developer</span></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                  <span>Premium support: <span className="font-semibold">6 months</span></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
-                  </svg>
-                  <span>Free updates: <span className="font-semibold">6 months</span></span>
-                </li>
-              </ul>
-              <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white dark:focus:ring-primary-900">
-                Get started
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
+        Escolha o melhor plano para o seu companheiro!
+      </h2>
     </div>
-  )
+
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {plans.map((plan, index) => (
+        <div
+          key={index}
+          className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mb-6"
+        >
+          <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
+            {plan.title}
+          </h5>
+          <div className="flex items-baseline text-gray-900 dark:text-white">
+            <span className="text-3xl font-semibold">R$</span>
+            <span className="text-5xl font-extrabold tracking-tight">
+              {plan.price}
+            </span>
+            <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
+              /mês
+            </span>
+          </div>
+          <ul role="list" className="space-y-5 my-7">
+            {plan.features.map((feature, idx) => (
+              <li
+                key={idx}
+                className={`flex items-center ${
+                  feature.included ? "" : "line-through decoration-gray-500"
+                }`}
+              >
+                <svg
+                  className={`flex-shrink-0 w-4 h-4 ${
+                    feature.included
+                      ? "text-blue-700 dark:text-blue-500"
+                      : "text-gray-400 dark:text-gray-500"
+                  }`}
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                </svg>
+                <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
+                  {feature.text}
+                </span>
+              </li>
+            ))}
+          </ul>
+          <a
+            type="button"
+            className="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
+          >
+            Escolher Plano
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+    </div>
+  );
 }
 
 export default Plans;
